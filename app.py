@@ -8,6 +8,7 @@
 # Install all dependencies using: pip install -r requirements.txt
 # For Docker build image: docker build -t <image-name> .
 # For Docker volume: docker run -dp 5000:5000 -w /app -v "$(pwd):/app" <image-name>
+# For Docker volume after gunicorn integration: docker run -dp 5000:5000 -w /app -v "$(pwd):/app" <image-name> sh -c "flask run --host 0.0.0.0"
 
 # For Flask-Migrate => Start db init: flask db init  
 # When you have made a change in your columns e.g. adding description = db.Column(db.String) to item model, use: flask db migrate
