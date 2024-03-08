@@ -2,9 +2,12 @@ flask
 flask-smorest
 python-dotenv
 sqlalchemy
+sqlalchemy-utils
 flask-sqlalchemy
 flask-jwt-extended
 flask-migrate
 passlib
 gunicorn
 psycopg2
+pytest
+requests
